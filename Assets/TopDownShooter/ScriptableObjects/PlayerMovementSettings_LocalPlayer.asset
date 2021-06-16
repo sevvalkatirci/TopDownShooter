@@ -9,9 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0cf891ebbb6590246a726c86e32ddfd5, type: 3}
-  m_Name: CameraSettings_LocalPlayer
+  m_Script: {fileID: 11500000, guid: b262ea797def0b84a836f108b1e77b96, type: 3}
+  m_Name: PlayerMovementSettings_LocalPlayer
   m_EditorClassIdentifier: 
-  _rotationLerpSpeed: 1
-  _positionOffset: {x: 0, y: 2, z: -5}
-  _positionLerp: 5
+  HorizontalSpeed: 0.25
+  VerticalSpeed: 0.25

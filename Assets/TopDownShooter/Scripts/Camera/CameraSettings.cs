@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-namespace TopDownShooter
+namespace TopDownShooter.Camera
 {
     [CreateAssetMenu(menuName = "TopDown Shooter/Camera/CameraSettings")]
     public class CameraSettings : ScriptableObject

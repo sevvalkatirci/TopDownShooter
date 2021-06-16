@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Serialization;
 
-namespace TopDownShooter
+namespace TopDownShooter.Camera
 {
     public class CameraController : MonoBehaviour
     {
