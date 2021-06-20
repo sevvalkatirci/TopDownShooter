@@ -10,12 +10,13 @@ namespace TopDownShooter.Camera
     {
         [SerializeField] private CameraSettings _cameraSettings;
         [SerializeField] private Transform _targetTransform;
-        [FormerlySerializedAs("_cameraTRansform")] [SerializeField] private Transform _cameraTransform;
+        [SerializeField] private Transform _positionTarget;
+        [SerializeField] private Transform _cameraTransform;
 
         private void Update()
         {
+            CameraMovementFollow();
            CameraRotationFollow();
-           CameraMovementFollow();
         }
 
         private void CameraRotationFollow()
@@ -27,9 +28,7 @@ namespace TopDownShooter.Camera
 
         private void CameraMovementFollow()
         {
-            _cameraTransform.position = Vector3.Lerp(_cameraTransform.position,
-                _targetTransform.position + _cameraSettings.PositionOffset,
-                Time.deltaTime * _cameraSettings.PositionLerp);
+            _cameraTransform.localPosition = _cameraSettings.PositionOffset;
         }
     }
 

@@ -9,9 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0cf891ebbb6590246a726c86e32ddfd5, type: 3}
-  m_Name: CameraSettings_LocalPlayer
+  m_Script: {fileID: 11500000, guid: 793f384a3b64bd14295f0a3ad4a74393, type: 3}
+  m_Name: New Player Inventory Canon Item Data
   m_EditorClassIdentifier: 
-  _rotationLerpSpeed: 1
-  _positionOffset: {x: 0, y: 0, z: -5}
-  _positionLerp: 5
+  _itemId: default
+  _inventoryItemDataType: 0
+  _prefab: {fileID: -1035721429765176187, guid: 1ea292caf964e47459214fd7083fd344, type: 3}
